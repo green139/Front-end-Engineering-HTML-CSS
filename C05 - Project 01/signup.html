@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel=stylesheet href="style.css" type="text/css">
+    <style>
+        #singup{
+        border: 2px solid red;
+        background-color: pink;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="link-div" class="content">
+            <ul id="navi-link-li">
+                <li><a href="home.html"><button id="home">Home</button></a></li>
+                <li><a href="calculator.html"><button id="calculator" class="nav-button">Calculator</button></a></li>
+                <li><a href="signup.html"><button id="signup">Signup</button></a></li>
+            </ul>
+        </div>
+        <div id="signup-form" class="content">
+            <form action>
+                <table align="center">
+                    <tr><th><label for="username">Enter Username:</label></th>
+                        <td><input type="text" name="username" value="Typein Here"></td>
+                    </tr>
+
+                    <tr><th><label for="password">Enter Password:</label></th>
+                        <td><input type="text" name="password" value="Typein Here"></td>
+                    </tr>
+
+                    <tr><th><label for="re-enter-password">Re-enter Password:</label></th>
+                        <td><input type="text" value="Typein Here"></td>
+                    </tr>
+
+                </table>
+                <div id="sign-btn">
+                    <input type="submit" value="SignUp">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

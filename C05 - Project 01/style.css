@@ -1,0 +1,117 @@
+*{ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+#container{
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+/*styling the page link buttons */
+
+#link-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-items: 10px 10%;
+}
+
+a{
+  text-decoration: none;
+}
+#navi-link-li li{
+  display: inline-block;
+  padding: 0% 30px;
+}
+
+button{
+  width: 75px;
+  height: 35px;
+  border: 2px solid lightskyblue;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+#navi-link-li{
+  padding: 5px;
+  list-style-type: none;
+}
+
+/* styling content part of page for home page text*/
+.content{
+  padding:15px;
+}
+
+/* styling content part of page for page calculator*/
+#calc-div{
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 5%;
+}
+
+#typein{
+text-align: center;
+padding: 10px;
+margin-bottom: 30px;
+border: 2px solid black;
+}
+
+#num-pad{
+  margin-left: 100px;
+}
+
+.cal-row{
+  display: flex;
+  justify-content:space-evenly;
+  margin-right:15px;
+}
+
+.cal-key{
+  width:45px;
+  margin:1px;
+  padding:5px 10px 5px 15px;
+  border: 2px solid black;
+}
+
+/*/* styling content part of page for page signup*/
+
+#signup-form{
+  margin-left: 15%;
+  margin-right:15%;
+}
+
+tr{
+  padding:10px;
+  width:100px;
+  font-family:tahoma;
+  font-size:12px;
+}
+
+th, td{
+  width: 100px;
+  font-size: small;
+  font-weight: normal;
+  padding:15px;
+}
+
+input{
+  width:300px;
+  height: 40px;
+  text-align:center;
+  padding:15px;
+}
+#sign-btn{
+  margin-left: 40%;
+  margin-right:35%;
+  padding:10px;
+}
+input[type="submit"]{
+  width: 120px;
+  padding-bottom:30px;
+  background-color: white;
+}
